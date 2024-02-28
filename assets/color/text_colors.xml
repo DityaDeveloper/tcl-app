@@ -1,0 +1,7 @@
+<resources>
+    <color name="title-primary-color">#2A3A52</color>
+    <color name="subtitle-primary-color">#7A869A</color>
+    <color name="title-card-color">#333E63</color>
+    <color name="subtitle-card-color">#7887A3</color>
+    <color name="title-green-color">#12B76A</color>
+</resources>
