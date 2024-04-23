@@ -12,6 +12,10 @@ import 'package:flutter/widgets.dart';
 class $AssetsImageGen {
   const $AssetsImageGen();
 
+  /// File path: assets/image/Kamar-Operasi.jpg
+  AssetGenImage get kamarOperasi =>
+      const AssetGenImage('assets/image/Kamar-Operasi.jpg');
+
   /// File path: assets/image/background_splash.png
   AssetGenImage get backgroundSplash =>
       const AssetGenImage('assets/image/background_splash.png');
@@ -88,9 +92,25 @@ class $AssetsImageGen {
   AssetGenImage get imageMonas =>
       const AssetGenImage('assets/image/image_monas.png');
 
+  /// File path: assets/image/otp_call.jpeg
+  AssetGenImage get otpCall =>
+      const AssetGenImage('assets/image/otp_call.jpeg');
+
+  /// File path: assets/image/otp_send.jpeg
+  AssetGenImage get otpSend =>
+      const AssetGenImage('assets/image/otp_send.jpeg');
+
   /// File path: assets/image/parlatte_bot_grid.png
   AssetGenImage get parlatteBotGrid =>
       const AssetGenImage('assets/image/parlatte_bot_grid.png');
+
+  /// File path: assets/image/radiologi-RSUD-PIJAY.jpg
+  AssetGenImage get radiologiRSUDPIJAY =>
+      const AssetGenImage('assets/image/radiologi-RSUD-PIJAY.jpg');
+
+  /// File path: assets/image/rsud_image.jpg
+  AssetGenImage get rsudImage =>
+      const AssetGenImage('assets/image/rsud_image.jpg');
 
   /// File path: assets/image/user_icon.png
   AssetGenImage get userIcon =>
@@ -98,6 +118,7 @@ class $AssetsImageGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        kamarOperasi,
         backgroundSplash,
         companyIcon,
         iconCreditcard,
@@ -117,7 +138,11 @@ class $AssetsImageGen {
         imageJtp2,
         imageJtp3,
         imageMonas,
+        otpCall,
+        otpSend,
         parlatteBotGrid,
+        radiologiRSUDPIJAY,
+        rsudImage,
         userIcon
       ];
 }

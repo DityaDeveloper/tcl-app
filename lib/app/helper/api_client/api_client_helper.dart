@@ -59,7 +59,7 @@ class ApiClient {
     Map<String, String> headers = {};
     if (token == '') {
       headers = {
-        "Content-Type": "application/json"
+       // "Content-Type": "application/json"
         //"X-CSRF-Token": "",
       };
     } else {

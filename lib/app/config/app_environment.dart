@@ -12,7 +12,7 @@ class AppEnvironment {
     factory AppEnvironment.dev() {
     const env = AppEnvironment._(
       name: 'dev',
-      baseUrl: 'http://localhost:8000/v1/api/',
+      baseUrl: 'https://dityadeveloper.github.io/mock/hospital/',
      // baseUrl: 'http://192.168.1.7:8000/api/v1/',
     );
     instance = env;

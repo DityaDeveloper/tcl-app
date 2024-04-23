@@ -1,7 +1,7 @@
 class MasterUri {
   static Baseuri get baseurl => Baseuri();
   static PathAuth get pathAuth => PathAuth();
-  static PathListTcl get pathListCtl => PathListTcl();
+  static PathHospital get pathHospital => PathHospital();
 }
 
 class Baseuri {
@@ -15,13 +15,11 @@ class PathAuth {
   String get authGetUser => "user";
   String get getToken => "token";
 }
+class PathHospital {
+  // example url : https://dityadeveloper.github.io/mock/hospital/login.json
+  String get menu => "menu.json";
+  String get login => "login.json";
+  String get verify => "verify.json";
+  String get profil => "profile.json";
 
-class PathListTcl{
-   String get registerplan => "registerplan/create";
-
-   String get mTruck => "truck";
-   String get mPlan => "plan";
-   String get mPo => "po";
-   String get partner => "partner";
-   String get pengiriman => "pengiriman";
 }
